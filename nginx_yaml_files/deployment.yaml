@@ -15,5 +15,5 @@ spec:
         app: nginx
     spec:
       containers:
-      - image: nginx
+      - image: quay.io/nginx/nginx-unprivileged:stable-alpine
         name: nginx
